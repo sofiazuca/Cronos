@@ -1,0 +1,175 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.boton-formulario{
+    background-color: #1b1a1a;
+    color: #ffffff;
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.input_error{
+    border: 2px #e74c3c solid !important;
+}
+
+
+
+/* Inicio: estilos del header */
+
+.header-principal {
+    background: #1B1A1A;
+}
+
+.header-principal nav a {
+    color: #F3EFEF;
+    text-decoration: none;
+}
+
+.header-principal nav a:hover {
+    color: #D81C44;
+}
+
+
+/* Fin: estilos del header */
+
+.titulo-principal {
+    font-family: verdana;
+    color: #D81C44;
+    font-size: 24px;
+}
+
+.subtitulo {
+    font-family: verdana;
+    color: #ED4C67;
+    font-size: 20px;
+}
+
+
+/* Estilos de las tablas informativas */
+
+.tabla-informacion {
+    border: 2px solid #000;
+}
+
+.tabla-informacion thead {
+    border: 2px solid #000;
+    background: #1B1464;
+    color: #FFC312;
+}
+
+.tabla-informacion thead th {
+    height: 30px;
+    min-width: 100px;
+}
+
+.tabla-informacion tbody {
+    border: 2px solid #000;
+}
+
+.tabla-informacion tbody tr {
+    border-bottom: 2px solid rgba(27, 20, 100, 1);
+}
+
+.tabla-informacion tbody tr:hover {
+    background: rgba(27, 20, 100, 0.3)
+}
+
+.tabla-informacion tbody td {
+    height: 50px;
+    text-align: center;
+}
+
+/*Estilos de formulario de contacto*/
+#sct-contacto{
+    border: solid 1px #000000;
+    background-color: #2f3542;
+}
+#sct-contacto form{
+    background-color: #f1f2f6;
+}
+
+#sct-contacto label{
+    display: inline-block;
+    width: 200px;
+}
+#sct-contacto input{
+    width: 180px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #2f3542;
+    background-color: #f1f2f6;;
+    outline: none;
+}
+
+
+#sct-contacto input[type=date]{
+   width: 181px;
+}
+#sct-contacto  textarea{
+    width: 180px;
+    border: none;
+    border-bottom: 2px solid #2f3542;
+    background-color: #f1f2f6;
+    resize: none;
+    height: 100px;
+    outline: none;
+}
+
+/*Formulario Propiedades*/
+
+.contacto{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    max-width: 500px;
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-columns: auto; 
+    margin-left: 16px; 
+}
+
+input{
+    border: 1px solid #000000;
+    background: none;
+    line-height: 20px;
+    padding: 10px;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-size: 1rem;
+    outline: none;
+
+}
+textarea{
+    border: 1px solid #000000;
+    background: none;
+    line-height: 20px;
+    padding: 10px;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-size: 1rem;
+    resize: none;
+    height: 100px;
+    outline: none;
+}
+
+button{
+    border: 1px solid #000000;
+    background: none;
+    line-height: 20px;
+    padding: 10px;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-size: 1rem;
+    outline: none;
+    width: 14%;
+}

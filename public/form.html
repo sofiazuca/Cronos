@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <section>
+       <form>
+        <div>
+            <label for="">ISBN</label>
+            <input type="text" name="isbn" id="isbn"> 
+        </div>
+        <div>
+            <label for="">Título</label>
+            <input type="text" id="titulo">  
+        </div>
+        <div>
+            <label for="">Precio</label>
+            <input type="number" name="precio" id="precio">
+        </div>
+
+        <div>
+            <label for="">Lanzamiento</label>
+            <input type="date" name="fecha" id="fecha">
+        </div>
+        <div>
+            <label for="">Autor</label>
+            <select name="autores" id="autores">
+                <option value="diana">Diana J. Gabaldon</option>
+                <option value="seuss">Dr. Seuss</option>
+                <option value="rowling">J. K. Rowling​</option>
+            </select>
+        </div>
+        <button id="btn" type="button">
+        Registrar
+        </button>
+
+
+
+
+       </form>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>
